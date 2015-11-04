@@ -1,12 +1,15 @@
+普通的BFS.
+唯一小心就是：每次要把每一Level 的放在一个list里面。也就是说，一旦queue里有东西，那一定就全部是这一个level的。先把size固定一下，把queue里面的东西全部加到这个level的list里面（同时还要继续添加element 进 queue）。没跑完一圈i ~ size， 然后就add那个level list。
+```
 /*
 Given a binary tree, return the level order traversal of its nodes' values. (ie, from left to right, level by level).
 
 For example:
 Given binary tree {3,9,20,#,#,15,7},
     3
-   / \
+   / \\
   9  20
-    /  \
+    /  \\
    15   7
 return its level order traversal as:
 [
@@ -74,3 +77,4 @@ public class Solution {
 
 
 
+```

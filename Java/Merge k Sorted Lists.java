@@ -1,3 +1,21 @@
+事情是这样的。今天李特除了一题，据说是Hard。
+我一看好像曾经见过，于是做了做，时间复杂度最后大约是O(kn)*O(logn). 因为用到了PriorityQueue, 里面的offer() 和 poll()都是O(logn)的时间。
+
+总而言之就是：
+先把每个ListNode放进queue。
+然后逐个击破。每次击破，都要把小孩扔进queue。
+
+这里有复习了一下
+````
+new Comparator<...>{}的用法
+
+PriorityQueue<xx> queue = new PriorityQueue<xx>(new Comparator<xx>(){
+  public compare(xx A, xx B) {
+    return A.value - B.value;//只要A<B，A就排在B前面。也就是natural order。
+  }
+})
+````
+````
 /*
 Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
 
@@ -51,3 +69,4 @@ public class Solution {
         return dummy.next;
     }
 }
+````

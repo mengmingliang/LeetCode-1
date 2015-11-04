@@ -1,3 +1,13 @@
+这个题目李特是屌炸天的。
+我飞了九牛二虎之力（路子对），但是代码写的七荤八素，好长好长好长好长的。
+结果正解，三四行就搞定了。真是心有不甘啊。
+想法如下：
+保证p1能胜利，就必须保持所有p2的move都不能赢。
+同时，p1只要在可走的Move里面，有一个move可以赢就足够了。（题目里面用一个for loop + 只要 满足条件就return true来表达 OR的意思：p1不同的路子，赢一种就行了）
+p1: player1
+p2: player2
+
+```
 /*
 You are playing the following Flip Game with your friend: Given a string that contains only these two characters: + and -, you and your friend take turns to flip two consecutive "++" into "--". The game ends when a person can no longer make a move and therefore the other person will be the winner.
 
@@ -127,17 +137,4 @@ public class Solution {
 	    }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```

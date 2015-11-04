@@ -81,7 +81,8 @@ public class GenerateCodeTable {
 		//Assemble output
 		String outputContent = "# LeetCode\n\n" + 
 			"To host Java Solutions to problems from LeetCode(https://leetcode.com/problemset/algorithms/).\n" + 
-			"I Will try to revise the solutions once new problem or new testing case occurs.\n\n" + 
+			"I Will try to revise the solutions once new problem or new testing case occurs.\n" + 
+			"Since I do not run .java files, they are formatted with markdowns to help compressing code in blog format.\n\n"+
 			"| Squence | Problem       | Level			| Language  |\n" + 
 			"|:-------:|:--------------|:---------------|:---------:|\n";
 		int count = 0;

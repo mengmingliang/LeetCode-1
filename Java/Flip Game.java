@@ -1,3 +1,6 @@
+这个题目是很寂寞的. 2 pointer可以做, 在网上又搜了一下，貌似可以有很多牛逼的优化，我暂时还没去看。
+很郁闷的就是条件不明，原来只需要从'++'转到'--'的情况，反过来没必要关注...搞了我半天啊
+```
 /*
 You are playing the following Flip Game with your friend: Given a string that contains only these two characters: + and -, you and your friend take turns to flip two consecutive "++" into "--". The game ends when a person can no longer make a move and therefore the other person will be the winner.
 
@@ -49,3 +52,5 @@ public class Solution {
 
 
 
+
+```

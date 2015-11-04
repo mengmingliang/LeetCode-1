@@ -1,12 +1,18 @@
+自己想了这个方法，有可能不是特别efficient.
+一个queue放普通的BFS。
+一个queue放level。
+同时维护一个parent value；维护一个跟着BFS跑的level。
+每个node都有一个lv。一旦lv和正在跑的level不一样，证明lv>level，那么也就是说，刚刚换行拉。parent的值，就是上一行最右边的值。DONE.
+```
 /*
 Given a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom.
 
 For example:
 Given the following binary tree,
    1            <---
- /   \
+ /   \\
 2     3         <---
- \     \
+ \\     \\
   5     4       <---
 You should return [1, 3, 4].
 
@@ -76,3 +82,4 @@ public class Solution {
 
 
 
+```

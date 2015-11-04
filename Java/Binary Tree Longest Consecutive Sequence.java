@@ -1,3 +1,11 @@
+屌炸天的4行代码。
+我洋洋洒洒那么多行，最后还不work.看了solution, 如此精简。
+
+主要想法：
+Recursive用好。首先在这个level比一比，可否成。
+不成的话，另立门户。
+然后左右开弓。再把结果拿过来比较一下就好了。简单明了。
+```
 /*
 Given a binary tree, find the length of the longest consecutive sequence path.
 
@@ -5,15 +13,15 @@ The path refers to any sequence of nodes from some starting node to any node in 
 
 For example,
    1
-    \
+    \\
      3
-    / \
+    / \\
    2   4
-        \
+        \\
          5
 Longest consecutive sequence path is 3-4-5, so return 3.
    2
-    \
+    \\
      3
     / 
    2    
@@ -114,3 +122,4 @@ public class Solution {
     }
 }
 */
+```

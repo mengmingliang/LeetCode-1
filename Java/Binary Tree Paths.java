@@ -1,28 +1,25 @@
+一幕了然. DFS把tree给过了.
+用ArrayList存item比较方便，记得每次backtrack的时候把末尾的item去掉
+```
+list.remove(list.size() - 1);
+```
+
+```
 /*
 Given a binary tree, return all root-to-leaf paths.
 
 For example, given the following binary tree:
 
    1
- /   \
+ /   \\
 2     3
- \
+ \\
   5
 All root-to-leaf paths are:
 
 ["1->2->5", "1->3"]
-
-
-Tags: Tree, Depth-first Search
-Similar Problems: (M) Path Sum II
-
-
 */
 
-/*
-Just DFS .
-remember to remove end item on the list when backtracking
-*/
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -70,3 +67,5 @@ public class Solution {
 
 
 
+
+```

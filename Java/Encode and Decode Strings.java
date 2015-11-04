@@ -1,3 +1,8 @@
+
+不难，但是要考虑好如何handle ""。
+因为平时都把“” 当做Null对待，这里就犯浑了。
+这题，要把Null特别mark一下为‘NULL’，而特别处理 “” empty string.
+```
 /*
 Design an algorithm to encode a list of strings to a string. The encoded string is then sent over the network and is decoded back to the original list of strings.
 
@@ -96,13 +101,4 @@ public class Codec {
 // Codec codec = new Codec();
 // codec.decode(codec.encode(strs));
 
-
-
-
-
-
-
-
-
-
-
+```

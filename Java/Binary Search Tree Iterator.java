@@ -1,3 +1,10 @@
+李特这的这个题目不错。写一遍example就能看出来inorder traversal。当然啦，不能直接全部traverse了，因为题目说有空间限制。
+
+那么就traversal on the fly， 先左手DFS， 然后每次加上一个右手node,都再来一遍左手DFS。
+
+存到一个后进先出的数据结构里，stack呗，然后头顶就是最小的了。
+
+```
 /*
 Implement an iterator over a binary search tree (BST). Your iterator will be initialized with the root node of a BST.
 
@@ -76,3 +83,4 @@ public class BSTIterator {
  * BSTIterator i = new BSTIterator(root);
  * while (i.hasNext()) v[f()] = i.next();
  */
+```

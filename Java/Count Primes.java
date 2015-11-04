@@ -1,3 +1,9 @@
+方法很牛逼也很数学。没做的时候可能想不到。做了之后就觉得，哎，我去，有道理啊。
+简而言之：简历一个boolean长条，存isPrime[]。 然后从i=2， 全部变true.
+然后利用这个因子的性质，非prime满足条件： self*self, self * self + self ... etc.
+所以就check每一个j, j+i, j+i+i, 然后把所有non-prime全部mark成false.
+最后，数一遍还剩下的true个数就好了
+```
 /*
 Description:
 
@@ -73,3 +79,4 @@ public class Solution {
         return count;
     }
 }
+```
