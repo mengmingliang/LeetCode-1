@@ -1,9 +1,9 @@
 import java.io.*;
 /*
 Used to generate table of contents.
-1. No args: generate GitHub table
+1. No args: generate both tables
 2. args == 'word', generate WordPress table.
-3. args == 'all', genereate both table
+3. args == 'git', genereate GitHub table.
 */
 public class GenerateCodeTable {
 	public static void main(String[] args) {	
@@ -24,22 +24,24 @@ public class GenerateCodeTable {
 		
 		if (args.length == 0){
 			outputContent = generateREADME(listOfFiles);
-			printTable("README.md", outputContent);
+			printPage("README.md", outputContent);
+			outputContent = generateWordPressPage(listOfFiles);
+			printPage("WordPress.txt", outputContent);
 		} else if (args != null && args[0].contains("word")) {//Wordpress
 			outputContent = generateWordPressPage(listOfFiles);
-			printTable("WordPress.txt", outputContent);
-		} else if (args != null && args[0].contains("all")) {
+			printPage("WordPress.txt", outputContent);
+		} else if (args != null && args[0].contains("git")) {
 			outputContent = generateREADME(listOfFiles);
-			printTable("README.md", outputContent);
-			outputContent = generateWordPressPage(listOfFiles);
-			printTable("WordPress.txt", outputContent);
+			printPage("README.md", outputContent);
 		} else {
 			return;
 		}
 
 
 	}	
-
+	/*
+		Generate Wordpress Table
+	*/
 	public static String generateWordPressPage(File[] listOfFiles) {
 		//Assemble output
 		String outputContent = "Java Solutions to problems from LeetCode(<a href='https://leetcode.com/problemset/algorithms/'>https://leetcode.com/problemset/algorithms/</a>).\n" +
@@ -94,10 +96,17 @@ public class GenerateCodeTable {
 		}	
 		return outputContent;
 	}
-
-	public static void printTable(String fileName, String outputContent) {
+	/*
+		Generate a combined post of all files, with proper markdown
+	*/
+	public static String generateCombinedPost() {
+		return "";
+	}
+	/*
+		Write the outputContent to specific file
+	*/
+	public static void printPage(String fileName, String outputContent) {
 		System.out.println(outputContent);
-		//Write to README.md
 		try {	
 			File outFile = new File(fileName);
 			FileOutputStream fop = new FileOutputStream(outFile);
