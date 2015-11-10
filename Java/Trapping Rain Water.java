@@ -22,9 +22,9 @@ Similar Problems: (M) Container With Most Water, (M) Product of Array Except Sel
 
 */
 /*
-Solution2: image there is always 2 bar that holds the water in middle; or imagine: we only have one side of the wall (right wall in this case),
+Solution2: imagine there is always 2 bar that holds the water in middle; or imagine: we only have one side of the wall (right wall in this case),
 and we are adding a hard-paper on leftside of the water, thus we can calculate the volumn of water in middle.
-Idea is: two artificial wall has to both > water in middle, then will have watter in middle.
+Idea is: two artificial wall has to both > water in middle, then will have water in middle.
 Also, another idea of shifting highest wall: the highest wall from left and highest wall from right will hold a triangle shape of water in between,
 when calculating the water in middle index by index, we can simulate the two walls in by comparing max.
 Note: the true volumn for each index calculated should respect the min of the 2 highest walls.
