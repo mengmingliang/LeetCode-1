@@ -24,7 +24,7 @@ binary move it: in fact, moving the two border, 1 position at a time
 public class Solution {
     public int[] twoSum(int[] nums, int target) {
     	int[] rst = new int[2];
-        if (nums == null || nums.length <= 1 || target < 0) {
+        if (nums == null || nums.length <= 1) {
         	return rst;
         }
         int start = 0;

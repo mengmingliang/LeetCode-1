@@ -31,41 +31,43 @@ Since I do not run .java files, they are formatted with markdowns to help compre
 |22|[Insert Interval.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Insert Interval.java)| |Java|
 |23|[Integer to English Words.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Integer to English Words.java)| |Java|
 |24|[Intersection of Two Linked Lists.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Intersection of Two Linked Lists.java)| |Java|
-|25|[Longest Palindromic Substring.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Longest Palindromic Substring.java)| |Java|
-|26|[Lowest Common Ancestor of a Binary Search Tree.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Lowest Common Ancestor of a Binary Search Tree.java)| |Java|
-|27|[LRU Cache.java](https://github.com/shawnfan/LeetCode/blob/master/Java/LRU Cache.java)| |Java|
-|28|[MaximumSubarray.java](https://github.com/shawnfan/LeetCode/blob/master/Java/MaximumSubarray.java)| |Java|
-|29|[Median of Two Sorted Arrays.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Median of Two Sorted Arrays.java)| |Java|
-|30|[Meeting Rooms II.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Meeting Rooms II.java)| |Java|
-|31|[Meeting Rooms.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Meeting Rooms.java)| |Java|
-|32|[Merge Intervals.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Merge Intervals.java)| |Java|
-|33|[Merge k Sorted Lists.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Merge k Sorted Lists.java)| |Java|
-|34|[Merge Two Sorted Lists.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Merge Two Sorted Lists.java)| |Java|
-|35|[Min Stack.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Min Stack.java)| |Java|
-|36|[Missing Ranges.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Missing Ranges.java)| |Java|
-|37|[Number of Islands.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Number of Islands.java)| |Java|
-|38|[One Edit Distance.java](https://github.com/shawnfan/LeetCode/blob/master/Java/One Edit Distance.java)| |Java|
-|39|[Paint Fence.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Paint Fence.java)| |Java|
-|40|[Palindrome Permutation.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Palindrome Permutation.java)| |Java|
-|41|[Peeking Iterator.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Peeking Iterator.java)| |Java|
-|42|[Reverse Linked List.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Reverse Linked List.java)| |Java|
-|43|[Reverse Words in a String II.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Reverse Words in a String II.java)| |Java|
-|44|[reverseInteger.java](https://github.com/shawnfan/LeetCode/blob/master/Java/reverseInteger.java)| |Java|
-|45|[Rotate Image.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Rotate Image.java)| |Java|
-|46|[Search a 2D Matrix II.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Search a 2D Matrix II.java)| |Java|
-|47|[Search a 2D Matrix.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Search a 2D Matrix.java)| |Java|
-|48|[String to Integer.java](https://github.com/shawnfan/LeetCode/blob/master/Java/String to Integer.java)| |Java|
-|49|[Strobogrammatic Number II.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Strobogrammatic Number II.java)| |Java|
-|50|[Strobogrammatic Number.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Strobogrammatic Number.java)| |Java|
-|51|[Summary Ranges.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Summary Ranges.java)| |Java|
-|52|[Surrounded Regions.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Surrounded Regions.java)| |Java|
-|53|[Trapping Rain Water.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Trapping Rain Water.java)| |Java|
-|54|[Two Sum II - Input array is sorted.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Two Sum II - Input array is sorted.java)| |Java|
-|55|[Two Sum.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Two Sum.java)| |Java|
-|56|[Unique Word Abbreviation.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Unique Word Abbreviation.java)| |Java|
-|57|[Valid Anagram.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Valid Anagram.java)| |Java|
-|58|[Valid Parentheses.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Valid Parentheses.java)| |Java|
-|59|[Validate Binary Search Tree.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Validate Binary Search Tree.java)| |Java|
-|60|[Wiggle Sort.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Wiggle Sort.java)| |Java|
-|61|[Word Pattern.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Word Pattern.java)| |Java|
-|62|[Zigzag Iterator.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Zigzag Iterator.java)| |Java|
+|25|[Jump Game.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Jump Game.java)| |Java|
+|26|[Longest Palindromic Substring.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Longest Palindromic Substring.java)| |Java|
+|27|[Lowest Common Ancestor of a Binary Search Tree.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Lowest Common Ancestor of a Binary Search Tree.java)| |Java|
+|28|[LRU Cache.java](https://github.com/shawnfan/LeetCode/blob/master/Java/LRU Cache.java)| |Java|
+|29|[MaximumSubarray.java](https://github.com/shawnfan/LeetCode/blob/master/Java/MaximumSubarray.java)| |Java|
+|30|[Median of Two Sorted Arrays.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Median of Two Sorted Arrays.java)| |Java|
+|31|[Meeting Rooms II.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Meeting Rooms II.java)| |Java|
+|32|[Meeting Rooms.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Meeting Rooms.java)| |Java|
+|33|[Merge Intervals.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Merge Intervals.java)| |Java|
+|34|[Merge k Sorted Lists.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Merge k Sorted Lists.java)| |Java|
+|35|[Merge Two Sorted Lists.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Merge Two Sorted Lists.java)| |Java|
+|36|[Min Stack.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Min Stack.java)| |Java|
+|37|[Missing Ranges.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Missing Ranges.java)| |Java|
+|38|[Number of Islands.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Number of Islands.java)| |Java|
+|39|[One Edit Distance.java](https://github.com/shawnfan/LeetCode/blob/master/Java/One Edit Distance.java)| |Java|
+|40|[Paint Fence.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Paint Fence.java)| |Java|
+|41|[Palindrome Permutation.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Palindrome Permutation.java)| |Java|
+|42|[Peeking Iterator.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Peeking Iterator.java)| |Java|
+|43|[Reverse Linked List.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Reverse Linked List.java)| |Java|
+|44|[Reverse Words in a String II.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Reverse Words in a String II.java)| |Java|
+|45|[reverseInteger.java](https://github.com/shawnfan/LeetCode/blob/master/Java/reverseInteger.java)| |Java|
+|46|[Rotate Image.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Rotate Image.java)| |Java|
+|47|[Search a 2D Matrix II.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Search a 2D Matrix II.java)| |Java|
+|48|[Search a 2D Matrix.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Search a 2D Matrix.java)| |Java|
+|49|[String to Integer.java](https://github.com/shawnfan/LeetCode/blob/master/Java/String to Integer.java)| |Java|
+|50|[Strobogrammatic Number II.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Strobogrammatic Number II.java)| |Java|
+|51|[Strobogrammatic Number.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Strobogrammatic Number.java)| |Java|
+|52|[Summary Ranges.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Summary Ranges.java)| |Java|
+|53|[Surrounded Regions.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Surrounded Regions.java)| |Java|
+|54|[Symmetric Binar Tree.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Symmetric Binar Tree.java)| |Java|
+|55|[Trapping Rain Water.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Trapping Rain Water.java)| |Java|
+|56|[Two Sum II - Input array is sorted.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Two Sum II - Input array is sorted.java)| |Java|
+|57|[Two Sum.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Two Sum.java)| |Java|
+|58|[Unique Word Abbreviation.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Unique Word Abbreviation.java)| |Java|
+|59|[Valid Anagram.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Valid Anagram.java)| |Java|
+|60|[Valid Parentheses.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Valid Parentheses.java)| |Java|
+|61|[Validate Binary Search Tree.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Validate Binary Search Tree.java)| |Java|
+|62|[Wiggle Sort.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Wiggle Sort.java)| |Java|
+|63|[Word Pattern.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Word Pattern.java)| |Java|
+|64|[Zigzag Iterator.java](https://github.com/shawnfan/LeetCode/blob/master/Java/Zigzag Iterator.java)| |Java|
