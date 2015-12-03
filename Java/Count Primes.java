@@ -1,3 +1,7 @@
+什么是prime number: >=2的没有除自己和1以外公约数的数。
+还有另外一个中定义方法：
+这个n,有没有小于n的一个i,而达到： i*i + # of i = n. 如果有，那就不是 prime。 
+
 方法很牛逼也很数学。没做的时候可能想不到。做了之后就觉得，哎，我去，有道理啊。
 简而言之：简历一个boolean长条，存isPrime[]。 然后从i=2， 全部变true.
 然后利用这个因子的性质，非prime满足条件： self*self, self * self + self ... etc.
@@ -6,12 +10,9 @@
 ```
 /*
 Description:
-
 Count the number of prime numbers less than a non-negative number, n.
-
 Tags: Hash Table, Math
 Similar Problems: (E) Ugly Number, (M) Ugly Number II, (M) Perfect Squares
-
 */
 
 /*
@@ -55,9 +56,7 @@ public class Solution {
 /*
 1st attempt, ofcourse timeout.
 Thoughts:
-
 Prime: number > 1 and has not integer divider rather than 1
-
 Trivial way: for all (1~n-1), do while loop to check prime on each number m. O(mn)
 */
 
