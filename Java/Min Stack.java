@@ -1,3 +1,5 @@
+双Stack. 小心stack.peek() 而不是 pop
+```
 /*
 Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
 
@@ -20,23 +22,21 @@ Stack: peek()
 
 */
 
-
 class MinStack {
-	public Stack<Integer> stack = new Stack<Integer>();
-    public Stack<Integer> minStack = new Stack<Integer>();
+    Stack<Integer> stack = new Stack<Integer>();
+    Stack<Integer> min = new Stack<Integer>();
     public void push(int x) {
-    	stack.push(x);
-        if (minStack.isEmpty()) {
-            minStack.push(x);
+        stack.push(x);
+        if (min.isEmpty() || x < min.peek()){
+            min.push(x);
         } else {
-            int min = minStack.peek() > x ? x : minStack.peek();
-            minStack.push(min);
+            min.push(min.peek());
         }
     }
 
     public void pop() {
-        minStack.pop();
         stack.pop();
+        min.pop();
     }
 
     public int top() {
@@ -44,6 +44,9 @@ class MinStack {
     }
 
     public int getMin() {
-        return minStack.peek();
+        return min.peek();
     }
 }
+
+
+```

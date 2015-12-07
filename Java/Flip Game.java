@@ -15,6 +15,28 @@ For example, given s = "++++", after one move, it may become one of the followin
 ]
 */
 
+// 12.06.2015, slower than the previous one 
+public class Solution {
+    public List<String> generatePossibleNextMoves(String s) {
+        List<String> rst = new ArrayList<String>();
+        if (s == null || s.length() == 0) {
+            return rst;
+        }
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        StringBuffer sb = new StringBuffer(s);
+        while (sb.indexOf("++") != -1) {
+            int index = sb.indexOf("++");
+            list.add(index);
+            sb.replace(index, index + 1, "*");
+        }
+        for (int index : list) {
+            rst.add(s.substring(0, index) + "--" + s.substring(index + 2));
+        }
+        return rst;
+    }
+}
+
+
 /*
 Thoughts:
 Two pointers to check if p1 and p2 match target patern. If so, add.
