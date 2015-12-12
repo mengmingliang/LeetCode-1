@@ -2,6 +2,10 @@
 dp[i][j] =  balloons i~j 之间的sum. 然后找哪个点开始burst? 设为x。
 For loop 所有的点作为x， 去burst。
 每次burst都切成了三份：左边可以recusive 求左边剩下的部分的最大值 + 中间3项相乘 + 右边递归下去求最大值。
+
+
+这个是momorization, 而不纯是DP
+因为recursive了，其实还是搜索，但是memorize了求过的值，节省了Processing
 ```
 /*
 Given n balloons, indexed from 0 to n-1. Each balloon is painted with a number on it represented by array nums. 
@@ -74,7 +78,7 @@ public class Solution {
     }
 
     public int DP(int i, int j){
-    	if (dp[i][j] > 0) {
+    	if (dp[i][j] > 0) {//momorization
     		return dp[i][j];
     	}
     	for (int x = i; x <= j; x++) {
@@ -84,7 +88,19 @@ public class Solution {
     }
 }
 
+/*
+	用了recursive + memorization, 但是也可以用传统的DP，比如：
+	for (int length = 1; length < n; length++) [
+        for (int = 0; i < n-1; i++)  {
+            j = i + length; 
+            if length == 1:
+                dp[i][j] = A[i] * A[j] + A[i]
+            else:
+                dp[i][j] = max {}
+        }
+    }
 
+*/
 
 
 
