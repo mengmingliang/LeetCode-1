@@ -1,14 +1,17 @@
 这个琢磨了我好半天。
 第一个方法至少O(n^3),果然时间太多，输了给了李特。这种方法从两头check (i,j)，太慢。
 
-第二个方法，是Code Granker上面的，利用了高中学排列组合时候的概念。有个‘abc’，那么总共可以看成'a_b_c' 5个字符位置。分为两种情况： 一种是在'a|b'的间隙里面分割；一种是'abc'分割在'b'上。这样是O(2n-1)*O(n) = O(n^2)，还不错。
+第二个方法，是Code Granker上面的，利用了高中学排列组合时候的概念。
+有个‘abc’，那么总共可以看成'a_b_c' 5个字符位置。
+分为两种情况： 一种是在'a|b'的间隙里面分割；一种是'abc'分割在'b'上。这样是O(2n-1)*O(n) = O(n^2)，还不错。
 
 方法三应该是DP。还没有细细研究。
 
 ````
 /*
 Given a string S, find the longest palindromic substring in S. 
-You may assume that the maximum length of S is 1000, and there exists one unique longest palindromic substring.
+You may assume that the maximum length of S is 1000, 
+and there exists one unique longest palindromic substring.
 
 Tags: String
 Similar Problems: (H) Shortest Palindrome, (E) Palindrome Permutation

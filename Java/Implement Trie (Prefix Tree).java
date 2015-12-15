@@ -1,6 +1,8 @@
 Trie自己不多用到。
-如果是遇到一个一个字查询的题，可以考虑一下。构建TrieNode的时候要注意：如何找孩子？如果是个map的话，其实就挺好走位的。
-而且，每个node里面的 char 或者string有时候用处不大，可以为空。但是有些题目，比如在结尾要return一些什么String，就可以在end string那边存一个真的String。
+如果是遇到一个一个字查询的题，可以考虑一下。
+构建TrieNode的时候要注意：如何找孩子？如果是个map的话，其实就挺好走位的。
+而且，每个node里面的 char 或者string有时候用处不大，
+可以为空。但是有些题目，比如在结尾要return一些什么String，就可以在end string那边存一个真的String。
 
 
 ```
