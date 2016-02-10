@@ -1,5 +1,9 @@
 # LeetCode
 
+## Problems are merged into [Shawn's LintCode Solutions](https://github.com/shawnfan/LintCode). 
+
+[02/09/2016]This repo is no longer updating.
+
 To host Java Solutions to problems from LeetCode(https://leetcode.com/problemset/algorithms/).
 I Will try to revise the solutions once new problem or new testing case occurs.
 Since I do not run .java files, they are formatted with markdowns to help compressing code in blog format.
